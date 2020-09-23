@@ -22,9 +22,11 @@ namespace ASWA.Example.Functions
             ILogger log)
         {
             var posts = await GetBlogPostsFromTable(cloudTable);
-
+            
             return new OkObjectResult(posts);
         }
+
+        #region Private methods
 
         private static async Task<List<BlogPost>> GetBlogPostsFromTable(CloudTable table)
         {
@@ -40,5 +42,7 @@ namespace ASWA.Example.Functions
 
             return entities;
         }
+
+        #endregion
     }
 }
