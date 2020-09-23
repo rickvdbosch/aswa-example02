@@ -15,7 +15,7 @@ namespace ASWA.Example.Functions
 {
     public static class BlogPostFunctions
     {
-        [FunctionName(nameof(BlogPostFunctions))]
+        [FunctionName("blogposts")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] HttpRequest req,
             [Table(Constants.TABLENAME_CONTENT, Connection = "scs")]CloudTable cloudTable,
