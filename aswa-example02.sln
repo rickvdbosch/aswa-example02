@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30509.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASWA.Example.Common", "ASWA.Example.Common\ASWA.Example.Common.csproj", "{32E9D65E-9114-4030-BD0B-08A97ADD510B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASW.Example.Frontend", "ASWA.Example.Frontend\ASW.Example.Frontend.csproj", "{92E307A2-6642-4F53-8647-E84B6A635F69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32E9D65E-9114-4030-BD0B-08A97ADD510B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E9D65E-9114-4030-BD0B-08A97ADD510B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E9D65E-9114-4030-BD0B-08A97ADD510B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E9D65E-9114-4030-BD0B-08A97ADD510B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E307A2-6642-4F53-8647-E84B6A635F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E307A2-6642-4F53-8647-E84B6A635F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E307A2-6642-4F53-8647-E84B6A635F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E307A2-6642-4F53-8647-E84B6A635F69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9B97DA5-2D56-40F4-9DA0-076674DE08AB}
+	EndGlobalSection
+EndGlobal
