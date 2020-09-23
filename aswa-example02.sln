@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30509.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASWA.Example.Common", "ASWA.Example.Common\ASWA.Example.Common.csproj", "{32E9D65E-9114-4030-BD0B-08A97ADD510B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASW.Example.Frontend", "ASWA.Example.Frontend\ASW.Example.Frontend.csproj", "{92E307A2-6642-4F53-8647-E84B6A635F69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASWA.Example.Frontend", "ASWA.Example.Frontend\ASWA.Example.Frontend.csproj", "{92E307A2-6642-4F53-8647-E84B6A635F69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
