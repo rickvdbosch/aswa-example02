@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30509.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASWA.Example.Common", "ASWA.Example.Common\ASWA.Example.Common.csproj", "{32E9D65E-9114-4030-BD0B-08A97ADD510B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASWA.Example.Common", "ASWA.Example.Common\ASWA.Example.Common.csproj", "{32E9D65E-9114-4030-BD0B-08A97ADD510B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASWA.Example.Frontend", "ASWA.Example.Frontend\ASWA.Example.Frontend.csproj", "{92E307A2-6642-4F53-8647-E84B6A635F69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASWA.Example.Functions", "ASWA.Example.Functions\ASWA.Example.Functions.csproj", "{4C0FAB4F-CFB8-4ADE-9AD3-BA1B69CE58D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASWA.Example.Functions", "ASWA.Example.Functions\ASWA.Example.Functions.csproj", "{4C0FAB4F-CFB8-4ADE-9AD3-BA1B69CE58D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
