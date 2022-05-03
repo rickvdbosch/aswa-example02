@@ -7,10 +7,10 @@ using ASWA.Example.Common.Entities;
 
 namespace ASWA.Example.Functions
 {
-	public class AddPost
+	public static class AddPost
     {
         [FunctionName("AddPost")]
-        public IActionResult Run(
+        public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] BlogPost blogPost,
             [Table("Content", Connection = "scs")] out BlogPost entity,
             ILogger log)

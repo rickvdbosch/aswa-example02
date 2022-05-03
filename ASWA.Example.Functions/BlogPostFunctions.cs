@@ -13,10 +13,10 @@ using Microsoft.Extensions.Logging;
 
 namespace ASWA.Example.Functions
 {
-    public class BlogPostFunctions
+    public static class BlogPostFunctions
     {
         [FunctionName("blogposts")]
-        public IActionResult Run(
+        public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] HttpRequest req,
             [Table(Constants.TABLENAME_CONTENT, Connection = "scs")] TableClient tableClient,
             ILogger log)
