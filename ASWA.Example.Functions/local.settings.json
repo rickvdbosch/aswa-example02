@@ -3,8 +3,7 @@
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-    //"scs": "UseDevelopmentStorage=true",
-    "scs": "DefaultEndpointsProtocol=https;AccountName=rvdbstorage;AccountKey=E7C+8bBYE9ml5ghKQBv6rZRua9Ky4ubs7cVZFOb0iNwENTB04RwaCEaJjoFYeLNl6qIuDJw9amkxAvMI09YhkA==;EndpointSuffix=core.windows.net",
+    "scs": "UseDevelopmentStorage=true",
     "BaseAddress": "http://localhost:7071"
   }
 }
