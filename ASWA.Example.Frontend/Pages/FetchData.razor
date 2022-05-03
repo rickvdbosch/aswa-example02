@@ -1,6 +1,8 @@
 @page "/fetchdata"
 @inject HttpClient Http
 
+<PageTitle>Blog posts</PageTitle>
+
 <h1>Blog posts</h1>
 
 <p>This component fetches blogpost data from a C# Function.</p>
@@ -22,7 +24,7 @@ else
 }
 
 @code {
-    private BlogPost[] posts;
+    private BlogPost[]? posts;
 
     protected override async Task OnInitializedAsync()
     {
