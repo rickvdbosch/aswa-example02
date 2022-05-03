@@ -1,12 +1,8 @@
-﻿using System;
-using System.Runtime.Serialization;
-
-using Azure;
-using Azure.Data.Tables;
+﻿using Microsoft.Azure.Cosmos.Table;
 
 namespace ASWA.Example.Common.Entities
 {
-    public class BlogPost : ITableEntity
+    public class BlogPost : TableEntity
     {
         #region Constants
 
@@ -23,15 +19,11 @@ namespace ASWA.Example.Common.Entities
 
         #endregion
 
-        [IgnoreDataMember]
+        [IgnoreProperty]
         public string Title => RowKey;
 
-        public string Description { get; set; }
-
         public string Url { get; set; }
-        public string PartitionKey { get; set; }
-        public string RowKey { get; set; }
-        public DateTimeOffset? Timestamp { get; set; }
-        public ETag ETag { get; set; }
+
+        public string Description { get; set; }
     }
 }

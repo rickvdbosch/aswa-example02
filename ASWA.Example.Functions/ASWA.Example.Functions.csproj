@@ -5,7 +5,7 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.0.1" />
-		<PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Tables" Version="1.0.0" />
+		<PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="4.0.5" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\ASWA.Example.Common\ASWA.Example.Common.csproj" />
